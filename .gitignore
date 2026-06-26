@@ -1,0 +1,22 @@
+# Секреты и конфиги
+credentials.json
+*.env
+*.key
+*.pem
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
