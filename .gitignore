@@ -1,22 +1,32 @@
-# Секреты и конфиги
-credentials.json
+# Secrets and local configuration
+.env
 *.env
+credentials.json
 *.key
 *.pem
 
-# Временные файлы Python
+# Runtime data
+logs/
+*.log
+*.log.*
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Виртуальное окружение
 venv/
 env/
 .venv/
 
-# Редакторы и IDE
+# Editors and OS
 .vscode/
 .idea/
 *.swp
 *.swo
+.DS_Store
+Thumbs.db
